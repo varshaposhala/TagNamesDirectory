@@ -10,7 +10,7 @@ os.environ["STREAMLIT_SERVER_HEADLESS"] = "true"
 st.set_page_config(
     page_title="TOPIN TAGS | PST-Tech",
     page_icon="icon.png",
-    layout="wide",
+    layout="centered",
 )
 
 data = None
@@ -24,6 +24,16 @@ st.markdown(
     .center-text {
         text-align: center;
     }
+    
+    .dropdown-group {
+        border: 1px solid #4CAF50;  /* Green border */
+        padding: 2px;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
     </style>
     <div class="center-text">
         <h1>Find Topin Tags</h1>
@@ -32,14 +42,26 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-col1, col2, col3 = st.columns([1,1,1])
 
-section = col1.selectbox('Choose Section', json_utils.get_sections(data))
+with st.container():
+    st.markdown('<div class="dropdown-group">', unsafe_allow_html=True)
+    section = st.selectbox('Choose Section', json_utils.get_sections(data))
+    st.markdown("</div>", unsafe_allow_html=True)
 
-topic = col2.selectbox('Choose Topic', json_utils.get_topics(data, section))
+with st.container():
+    st.markdown('<div class="dropdown-group">', unsafe_allow_html=True)
+    topic = st.selectbox('Choose Topic', json_utils.get_topics(data, section))
+    st.caption('label')
+    st.code(json_utils.get_topic_value(section, topic))
+    st.caption('value')
+    st.code(topic)
+    st.markdown("</div>", unsafe_allow_html=True)
 
-sub_topic = col3.selectbox('Choose Sub-Topic', json_utils.get_sub_topics(data, section, topic))
-
-col1.code(section)
-col2.code(topic)
-col3.code(sub_topic)
+with st.container():
+    st.markdown('<div class="dropdown-group">', unsafe_allow_html=True)
+    sub_topic = st.selectbox('Choose Sub-Topic', json_utils.get_sub_topics(data, section, topic))
+    st.caption('label')
+    st.code(json_utils.get_sub_topic_value(section, topic, sub_topic))
+    st.caption('value')
+    st.code(sub_topic)
+    st.markdown("</div>", unsafe_allow_html=True)
