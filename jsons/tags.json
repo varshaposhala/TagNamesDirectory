@@ -1,4 +1,513 @@
 {
+    "suggested_sections": [
+        {
+            "assessment_section_id": "a273f5e8-0a19-4e8e-8e77-aca28698755e",
+            "applicable_job_roles": [
+                {
+                    "label": "Frontend Developer",
+                    "value": "FRONTEND_DEVELOPER"
+                },
+                {
+                    "label": "Java Developer",
+                    "value": "JAVA_DEVELOPER"
+                },
+                {
+                    "label": "Python Developer",
+                    "value": "PYTHON_DEVELOPER"
+                },
+                {
+                    "label": "Full Stack Developer",
+                    "value": "FULL_STACK_DEVELOPER"
+                },
+                {
+                    "label": "Associate Software Engineer",
+                    "value": "ASSOCIATE_SOFTWARE_ENGINEER"
+                },
+                {
+                    "label": "MERN Developer",
+                    "value": "MERN_DEVELOPER"
+                },
+                {
+                    "label": "NodeJS Developer",
+                    "value": "NODEJS_DEVELOPER"
+                },
+                {
+                    "label": "ReactJS Developer",
+                    "value": "REACTJS_DEVELOPER"
+                },
+                {
+                    "label": "Software Engineer",
+                    "value": "SOFTWARE_ENGINEER"
+                },
+                {
+                    "label": "QA Testing",
+                    "value": "QA_TESTING"
+                },
+                {
+                    "label": "SQL Developer",
+                    "value": "SQL_DEVELOPER"
+                },
+                {
+                    "label": "Data Analyst",
+                    "value": "DATA_ANALYST"
+                },
+                {
+                    "label": "Data Scientist",
+                    "value": "DATA_SCIENTIST"
+                },
+                {
+                    "label": "UI Developer",
+                    "value": "UI_DEVELOPER"
+                },
+                {
+                    "label": "Data Engineer",
+                    "value": "DATA_ENGINEER"
+                },
+                {
+                    "label": "Web Developer",
+                    "value": "WEB_DEVELOPER"
+                },
+                {
+                    "label": "Backend Developer",
+                    "value": "BACKEND_DEVELOPER"
+                },
+                {
+                    "label": "Technical Support",
+                    "value": "TECHNICAL_SUPPORT"
+                },
+                {
+                    "label": "Business Analyst",
+                    "value": "BUSINESS_ANALYST"
+                },
+                {
+                    "label": "Graduate Engineer Trainee",
+                    "value": "GRADUATE_ENGINEER_TRAINEE"
+                },
+                {
+                    "label": "Technical Architect",
+                    "value": "TECHNICAL_ARCHITECT"
+                }
+            ],
+            "title": "Big Five Psychometric Test",
+            "exam_duration_in_mins": 30,
+            "metadata": {
+                "is_psychometric_exam": true
+            },
+            "questions_config_list": [
+                {
+                    "id": "9405ebd0-b931-4d9a-92c0-84181d12204a",
+                    "topic": {
+                        "label": "",
+                        "value": ""
+                    },
+                    "sub_topic": {
+                        "label": "",
+                        "value": ""
+                    },
+                    "difficulty_level": {
+                        "label": "Easy",
+                        "value": "DIFFICULTY_EASY"
+                    },
+                    "exclusive_tags": [
+                        "PSYCHOMETRIC_TEST"
+                    ],
+                    "no_of_available_questions": 44,
+                    "no_of_selected_questions": 44
+                }
+            ],
+            "marks_configuration": {
+                "score_for_correct_answer": 5,
+                "score_for_wrong_answer": 0
+            },
+            "section_type": "CODE_ANALYSIS",
+            "order": 1
+        },
+        {
+            "assessment_section_id": "e4aa3a62-0649-4d6b-bbf8-faf40f364a9f",
+            "applicable_job_roles": [
+                {
+                    "label": "FrontEnd Developer",
+                    "value": "FRONTEND_DEVELOPER"
+                },
+                {
+                    "label": "Full Stack Developer",
+                    "value": "FULL_STACK_DEVELOPER"
+                },
+                {
+                    "label": "Associate Software Engineer",
+                    "value": "ASSOCIATE_SOFTWARE_ENGINEER"
+                },
+                {
+                    "label": "MERN Developer",
+                    "value": "MERN_DEVELOPER"
+                },
+                {
+                    "label": "React JS Developer",
+                    "value": "REACTJS_DEVELOPER"
+                },
+                {
+                    "label": "Software Engineer",
+                    "value": "SOFTWARE_ENGINEER"
+                },
+                {
+                    "label": "Web Developer",
+                    "value": "WEB_DEVELOPER"
+                },
+                {
+                    "label": "Graduate Engineer Trainee",
+                    "value": "GRADUATE_ENGINEER_TRAINEE"
+                }
+            ],
+            "title": "Front End Technical MCQ Test",
+            "exam_duration_in_mins": 25,
+            "questions_config_list": [
+                {
+                    "id": "c3e7e292-bae2-4771-8e48-66160221ff3b",
+                    "topic": {
+                        "label": "HTML and CSS",
+                        "value": "TOPIC_HTML_CSS_MCQ"
+                    },
+                    "sub_topic": {
+                        "label": "Tags",
+                        "value": "SUB_TOPIC_HTML_TAGS"
+                    },
+                    "difficulty_level": {
+                        "label": "Easy",
+                        "value": "DIFFICULTY_EASY"
+                    },
+                    "exclusive_tags": [],
+                    "no_of_available_questions": 10,
+                    "no_of_selected_questions": 2
+                },
+                {
+                    "id": "961f2fe9-9bf7-4956-a119-5f8a24badd31",
+                    "topic": {
+                        "label": "HTML and CSS",
+                        "value": "TOPIC_HTML_CSS_MCQ"
+                    },
+                    "sub_topic": {
+                        "label": "Text",
+                        "value": "SUB_TOPIC_CSS_TEXT"
+                    },
+                    "difficulty_level": {
+                        "label": "Medium",
+                        "value": "DIFFICULTY_MEDIUM"
+                    },
+                    "exclusive_tags": [],
+                    "no_of_available_questions": 11,
+                    "no_of_selected_questions": 10
+                },
+                {
+                    "id": "8eb43ffe-c48a-4cd3-ae92-307420d87d2e",
+                    "topic": {
+                        "label": "JavaScript",
+                        "value": "TOPIC_JS_MCQ"
+                    },
+                    "sub_topic": {
+                        "label": "Variables",
+                        "value": "SUB_TOPIC_JS_VARIABELES"
+                    },
+                    "difficulty_level": {
+                        "label": "Easy",
+                        "value": "DIFFICULTY_EASY"
+                    },
+                    "exclusive_tags": [],
+                    "no_of_available_questions": 3,
+                    "no_of_selected_questions": 3
+                },
+                {
+                    "id": "0ebf0331-cd38-400f-821c-fb105a6c95c0",
+                    "topic": {
+                        "label": "JavaScript",
+                        "value": "TOPIC_JS_MCQ"
+                    },
+                    "sub_topic": {
+                        "label": "Variables",
+                        "value": "SUB_TOPIC_JS_VARIABELES"
+                    },
+                    "difficulty_level": {
+                        "label": "Medium",
+                        "value": "DIFFICULTY_MEDIUM"
+                    },
+                    "exclusive_tags": [],
+                    "no_of_available_questions": 3,
+                    "no_of_selected_questions": 3
+                }
+            ],
+            "marks_configuration": {
+                "score_for_correct_answer": 1,
+                "score_for_wrong_answer": 0
+            },
+            "section_type": "CODE_ANALYSIS",
+            "order": 1
+        },
+        {
+            "assessment_section_id": "ad66bf1f-7930-4f41-a56d-6a1e0ec36f8f",
+            "applicable_job_roles": [
+                {
+                    "label": "Frontend Developer",
+                    "value": "FRONTEND_DEVELOPER"
+                },
+                {
+                    "label": "Java Developer",
+                    "value": "JAVA_DEVELOPER"
+                },
+                {
+                    "label": "Python Developer",
+                    "value": "PYTHON_DEVELOPER"
+                },
+                {
+                    "label": "Full Stack Developer",
+                    "value": "FULL_STACK_DEVELOPER"
+                },
+                {
+                    "label": "Associate Software Engineer",
+                    "value": "ASSOCIATE_SOFTWARE_ENGINEER"
+                },
+                {
+                    "label": "MERN Developer",
+                    "value": "MERN_DEVELOPER"
+                },
+                {
+                    "label": "NodeJS Developer",
+                    "value": "NODEJS_DEVELOPER"
+                },
+                {
+                    "label": "ReactJS Developer",
+                    "value": "REACTJS_DEVELOPER"
+                },
+                {
+                    "label": "Software Engineer",
+                    "value": "SOFTWARE_ENGINEER"
+                },
+                {
+                    "label": "QA Testing",
+                    "value": "QA_TESTING"
+                },
+                {
+                    "label": "SQL Developer",
+                    "value": "SQL_DEVELOPER"
+                },
+                {
+                    "label": "Data Analyst",
+                    "value": "DATA_ANALYST"
+                },
+                {
+                    "label": "Data Scientist",
+                    "value": "DATA_SCIENTIST"
+                },
+                {
+                    "label": "UI Developer",
+                    "value": "UI_DEVELOPER"
+                },
+                {
+                    "label": "Data Engineer",
+                    "value": "DATA_ENGINEER"
+                },
+                {
+                    "label": "Web Developer",
+                    "value": "WEB_DEVELOPER"
+                },
+                {
+                    "label": "Backend Developer",
+                    "value": "BACKEND_DEVELOPER"
+                },
+                {
+                    "label": "Technical Support",
+                    "value": "TECHNICAL_SUPPORT"
+                },
+                {
+                    "label": "Business Analyst",
+                    "value": "BUSINESS_ANALYST"
+                },
+                {
+                    "label": "Graduate Engineer Trainee",
+                    "value": "GRADUATE_ENGINEER_TRAINEE"
+                }
+            ],
+            "title": "Coding Test",
+            "exam_duration_in_mins": 30,
+            "questions_config_list": [
+                {
+                    "id": "001d8afd-7509-4dc3-8ec5-208816baf0ac",
+                    "topic": {
+                        "label": "Coding",
+                        "value": "TOPIC_PYTHON_CODING"
+                    },
+                    "sub_topic": {
+                        "label": "Coding",
+                        "value": "SUB_TOPIC_NESTED_LOOPS"
+                    },
+                    "difficulty_level": {
+                        "label": "Easy",
+                        "value": "DIFFICULTY_EASY"
+                    },
+                    "exclusive_tags": [],
+                    "no_of_available_questions": 149,
+                    "no_of_selected_questions": 2
+                }
+            ],
+            "coding_exam_config": {
+                "code_languages": [
+                    "PYTHON39",
+                    "CPP",
+                    "NODE_JS"
+                ],
+                "default_code_language": "PYTHON39"
+            },
+            "section_type": "CODING",
+            "order": 2
+        },
+        {
+            "assessment_section_id": "28ef5ece-d6e9-44ad-9c26-b4e52959cc73",
+            "applicable_job_roles": [
+                {
+                    "label": "Frontend Developer",
+                    "value": "FRONTEND_DEVELOPER"
+                },
+                {
+                    "label": "Java Developer",
+                    "value": "JAVA_DEVELOPER"
+                },
+                {
+                    "label": "Python Developer",
+                    "value": "PYTHON_DEVELOPER"
+                },
+                {
+                    "label": "Full Stack Developer",
+                    "value": "FULL_STACK_DEVELOPER"
+                },
+                {
+                    "label": "Associate Software Engineer",
+                    "value": "ASSOCIATE_SOFTWARE_ENGINEER"
+                },
+                {
+                    "label": "MERN Developer",
+                    "value": "MERN_DEVELOPER"
+                },
+                {
+                    "label": "NodeJS Developer",
+                    "value": "NODEJS_DEVELOPER"
+                },
+                {
+                    "label": "ReactJS Developer",
+                    "value": "REACTJS_DEVELOPER"
+                },
+                {
+                    "label": "Software Engineer",
+                    "value": "SOFTWARE_ENGINEER"
+                },
+                {
+                    "label": "QA Testing",
+                    "value": "QA_TESTING"
+                },
+                {
+                    "label": "SQL Developer",
+                    "value": "SQL_DEVELOPER"
+                },
+                {
+                    "label": "Data Analyst",
+                    "value": "DATA_ANALYST"
+                },
+                {
+                    "label": "Data Scientist",
+                    "value": "DATA_SCIENTIST"
+                },
+                {
+                    "label": "UI Developer",
+                    "value": "UI_DEVELOPER"
+                },
+                {
+                    "label": "Data Engineer",
+                    "value": "DATA_ENGINEER"
+                },
+                {
+                    "label": "Web Developer",
+                    "value": "WEB_DEVELOPER"
+                },
+                {
+                    "label": "Backend Developer",
+                    "value": "BACKEND_DEVELOPER"
+                },
+                {
+                    "label": "Technical Support",
+                    "value": "TECHNICAL_SUPPORT"
+                },
+                {
+                    "label": "Business Analyst",
+                    "value": "BUSINESS_ANALYST"
+                },
+                {
+                    "label": "Graduate Engineer Trainee",
+                    "value": "GRADUATE_ENGINEER_TRAINEE"
+                }
+            ],
+            "title": "Logical Reasoning",
+            "exam_duration_in_mins": 10,
+            "questions_config_list": [
+                {
+                    "id": "ad501ced-be41-4a78-ac0e-44e739721dea",
+                    "topic": {
+                        "label": "Logical Reasoning",
+                        "value": "TOPIC_LOGICAL_MCQ"
+                    },
+                    "sub_topic": {
+                        "label": "Number Series",
+                        "value": "SUB_TOPIC_NUMBER_SERIES"
+                    },
+                    "difficulty_level": {
+                        "label": "Easy",
+                        "value": "DIFFICULTY_EASY"
+                    },
+                    "exclusive_tags": [],
+                    "no_of_available_questions": 14,
+                    "no_of_selected_questions": 4
+                },
+                {
+                    "id": "74185de1-c112-40b8-aaa2-d57d7e3c9ad4",
+                    "topic": {
+                        "label": "Logical Reasoning",
+                        "value": "TOPIC_LOGICAL_MCQ"
+                    },
+                    "sub_topic": {
+                        "label": "Find The Odd One Out",
+                        "value": "SUB_TOPIC_ODD_ONE_OUT"
+                    },
+                    "difficulty_level": {
+                        "label": "Easy",
+                        "value": "DIFFICULTY_EASY"
+                    },
+                    "exclusive_tags": [],
+                    "no_of_available_questions": 16,
+                    "no_of_selected_questions": 3
+                },
+                {
+                    "id": "5f6d7996-4a2d-4c43-856d-d6b53c1831e9",
+                    "topic": {
+                        "label": "Logical Reasoning",
+                        "value": "TOPIC_LOGICAL_MCQ"
+                    },
+                    "sub_topic": {
+                        "label": "Word Sequence",
+                        "value": "SUB_TOPIC_WORD_SEQUENCE"
+                    },
+                    "difficulty_level": {
+                        "label": "Easy",
+                        "value": "DIFFICULTY_EASY"
+                    },
+                    "exclusive_tags": [],
+                    "no_of_available_questions": 22,
+                    "no_of_selected_questions": 3
+                }
+            ],
+            "marks_configuration": {
+                "score_for_correct_answer": 1
+            },
+            "section_type": "CODE_ANALYSIS",
+            "order": 3
+        }
+    ],
+    "question_tags": {
         "mcq_section_question_tags": [
             {
                 "topic_name": {
@@ -3828,26 +4337,6 @@
                     },
                     {
                         "sub_topic_name": {
-                            "label": "Mixture and allegations",
-                            "value": "SUB_TOPIC_QUANTITATIVE_MIXTURE_AND_ALLEGATIONS"
-                        },
-                        "available_difficulty_levels": [
-                            {
-                                "label": "Easy",
-                                "value": "DIFFICULTY_EASY"
-                            },
-                            {
-                                "label": "Medium",
-                                "value": "DIFFICULTY_MEDIUM"
-                            },
-                            {
-                                "label": "Hard",
-                                "value": "DIFFICULTY_HARD"
-                            }
-                        ]
-                    },
-                    {
-                        "sub_topic_name": {
                             "label": "Mixtures and allegations",
                             "value": "SUB_TOPIC_MIXTURES_AND_ALLEGATIONS"
                         },
@@ -4208,26 +4697,6 @@
                     },
                     {
                         "sub_topic_name": {
-                            "label": "Number series",
-                            "value": "SUB_TOPIC_QUANTITATIVE_NUMBER_SERIES"
-                        },
-                        "available_difficulty_levels": [
-                            {
-                                "label": "Easy",
-                                "value": "DIFFICULTY_EASY"
-                            },
-                            {
-                                "label": "Medium",
-                                "value": "DIFFICULTY_MEDIUM"
-                            },
-                            {
-                                "label": "Hard",
-                                "value": "DIFFICULTY_HARD"
-                            }
-                        ]
-                    },
-                    {
-                        "sub_topic_name": {
                             "label": "Heights distances",
                             "value": "SUB_TOPIC_QUANTITATIVE_HEIGHTS_DISTANCES"
                         },
@@ -4308,26 +4777,6 @@
                     },
                     {
                         "sub_topic_name": {
-                            "label": "Clocks and calendar",
-                            "value": "SUB_TOPIC_QUANTITATIVE_CLOCKS_AND_CALENDAR"
-                        },
-                        "available_difficulty_levels": [
-                            {
-                                "label": "Easy",
-                                "value": "DIFFICULTY_EASY"
-                            },
-                            {
-                                "label": "Medium",
-                                "value": "DIFFICULTY_MEDIUM"
-                            },
-                            {
-                                "label": "Hard",
-                                "value": "DIFFICULTY_HARD"
-                            }
-                        ]
-                    },
-                    {
-                        "sub_topic_name": {
                             "label": "Venn diagrams",
                             "value": "SUB_TOPIC_VENN_DIAGRAMS"
                         },
@@ -4350,26 +4799,6 @@
                         "sub_topic_name": {
                             "label": "Exponents",
                             "value": "SUB_TOPIC_QUANTITATIVE_EXPONENTS"
-                        },
-                        "available_difficulty_levels": [
-                            {
-                                "label": "Easy",
-                                "value": "DIFFICULTY_EASY"
-                            },
-                            {
-                                "label": "Medium",
-                                "value": "DIFFICULTY_MEDIUM"
-                            },
-                            {
-                                "label": "Hard",
-                                "value": "DIFFICULTY_HARD"
-                            }
-                        ]
-                    },
-                    {
-                        "sub_topic_name": {
-                            "label": "Mixtures allegations",
-                            "value": "SUB_TOPIC_QUANTITATIVE_MIXTURES_ALLEGATIONS"
                         },
                         "available_difficulty_levels": [
                             {
@@ -5036,48 +5465,8 @@
                     },
                     {
                         "sub_topic_name": {
-                            "label": "Number series",
-                            "value": "SUB_TOPIC_SUB_TOPIC_NUMBER_SERIES"
-                        },
-                        "available_difficulty_levels": [
-                            {
-                                "label": "Easy",
-                                "value": "DIFFICULTY_EASY"
-                            },
-                            {
-                                "label": "Medium",
-                                "value": "DIFFICULTY_MEDIUM"
-                            },
-                            {
-                                "label": "Hard",
-                                "value": "DIFFICULTY_HARD"
-                            }
-                        ]
-                    },
-                    {
-                        "sub_topic_name": {
                             "label": "Lcm hcf",
                             "value": "SUB_TOPIC_LCM_HCF"
-                        },
-                        "available_difficulty_levels": [
-                            {
-                                "label": "Easy",
-                                "value": "DIFFICULTY_EASY"
-                            },
-                            {
-                                "label": "Medium",
-                                "value": "DIFFICULTY_MEDIUM"
-                            },
-                            {
-                                "label": "Hard",
-                                "value": "DIFFICULTY_HARD"
-                            }
-                        ]
-                    },
-                    {
-                        "sub_topic_name": {
-                            "label": "Ratio proportions",
-                            "value": "SUB_TOPIC_RATIO_PROPORTIONS"
                         },
                         "available_difficulty_levels": [
                             {
@@ -12778,38 +13167,228 @@
                     "value": "TOPIC_SQL_CODING"
                 },
                 "sub_topics": [
-                    {
-                        "sub_topic_name": {
-                            "label": "SQL Question 1",
-                            "value": "SUB_TOPIC_SQL_CODING_QUESTION_1"
-                        },
-                        "available_difficulty_levels": [
-                            {
-                                "label": "Easy",
-                                "value": "DIFFICULTY_EASY"
+                    [
+                        {
+                            "sub_topic_name": {
+                                "label": "Order By",
+                                "value": "SUB_TOPIC_ORDER_BY"
                             },
-                            {
-                                "label": "Medium",
-                                "value": "DIFFICULTY_MEDIUM"
-                            }
-                        ]
-                    },
-                    {
-                        "sub_topic_name": {
-                            "label": "SQL Question 2",
-                            "value": "SUB_TOPIC_SQL_CODING_QUESTION_2"
+                            "available_difficulty_levels": [
+                                {
+                                    "label": "Easy",
+                                    "value": "DIFFICULTY_EASY"
+                                },
+                                {
+                                    "label": "Medium",
+                                    "value": "DIFFICULTY_MEDIUM"
+                                },
+                                {
+                                    "label": "Hard",
+                                    "value": "DIFFICULTY_HARD"
+                                }
+                            ]
                         },
-                        "available_difficulty_levels": [
-                            {
-                                "label": "Easy",
-                                "value": "DIFFICULTY_EASY"
+                        {
+                            "sub_topic_name": {
+                                "label": "Group By",
+                                "value": "SUB_TOPIC_GROUP_BY"
                             },
-                            {
-                                "label": "Medium",
-                                "value": "DIFFICULTY_MEDIUM"
-                            }
-                        ]
-                    }
+                            "available_difficulty_levels": [
+                                {
+                                    "label": "Easy",
+                                    "value": "DIFFICULTY_EASY"
+                                },
+                                {
+                                    "label": "Medium",
+                                    "value": "DIFFICULTY_MEDIUM"
+                                },
+                                {
+                                    "label": "Hard",
+                                    "value": "DIFFICULTY_HARD"
+                                }
+                            ]
+                        },
+                        {
+                            "sub_topic_name": {
+                                "label": "Comparison Operator",
+                                "value": "SUB_TOPIC_COMPARISION_OPERATOR"
+                            },
+                            "available_difficulty_levels": [
+                                {
+                                    "label": "Easy",
+                                    "value": "DIFFICULTY_EASY"
+                                },
+                                {
+                                    "label": "Medium",
+                                    "value": "DIFFICULTY_MEDIUM"
+                                },
+                                {
+                                    "label": "Hard",
+                                    "value": "DIFFICULTY_HARD"
+                                }
+                            ]
+                        },
+                        {
+                            "sub_topic_name": {
+                                "label": "String Function",
+                                "value": "SUB_TOPIC_STRING_FUNCTION"
+                            },
+                            "available_difficulty_levels": [
+                                {
+                                    "label": "Easy",
+                                    "value": "DIFFICULTY_EASY"
+                                },
+                                {
+                                    "label": "Medium",
+                                    "value": "DIFFICULTY_MEDIUM"
+                                },
+                                {
+                                    "label": "Hard",
+                                    "value": "DIFFICULTY_HARD"
+                                }
+                            ]
+                        },
+                        {
+                            "sub_topic_name": {
+                                "label": "Offset",
+                                "value": "SUB_TOPIC_OFFSET"
+                            },
+                            "available_difficulty_levels": [
+                                {
+                                    "label": "Easy",
+                                    "value": "DIFFICULTY_EASY"
+                                },
+                                {
+                                    "label": "Medium",
+                                    "value": "DIFFICULTY_MEDIUM"
+                                },
+                                {
+                                    "label": "Hard",
+                                    "value": "DIFFICULTY_HARD"
+                                }
+                            ]
+                        },
+                        {
+                            "sub_topic_name": {
+                                "label": "Between Operator",
+                                "value": "SUB_TOPIC_BETWEEN_OPERATOR"
+                            },
+                            "available_difficulty_levels": [
+                                {
+                                    "label": "Easy",
+                                    "value": "DIFFICULTY_EASY"
+                                },
+                                {
+                                    "label": "Medium",
+                                    "value": "DIFFICULTY_MEDIUM"
+                                },
+                                {
+                                    "label": "Hard",
+                                    "value": "DIFFICULTY_HARD"
+                                }
+                            ]
+                        },
+                        {
+                            "sub_topic_name": {
+                                "label": "Inner Join",
+                                "value": "SUB_TOPIC_INNER_JOIN"
+                            },
+                            "available_difficulty_levels": [
+                                {
+                                    "label": "Easy",
+                                    "value": "DIFFICULTY_EASY"
+                                },
+                                {
+                                    "label": "Medium",
+                                    "value": "DIFFICULTY_MEDIUM"
+                                },
+                                {
+                                    "label": "Hard",
+                                    "value": "DIFFICULTY_HARD"
+                                }
+                            ]
+                        },
+                        {
+                            "sub_topic_name": {
+                                "label": "SQL Joins",
+                                "value": "SUB_TOPIC_SQL_JOINS"
+                            },
+                            "available_difficulty_levels": [
+                                {
+                                    "label": "Easy",
+                                    "value": "DIFFICULTY_EASY"
+                                },
+                                {
+                                    "label": "Medium",
+                                    "value": "DIFFICULTY_MEDIUM"
+                                },
+                                {
+                                    "label": "Hard",
+                                    "value": "DIFFICULTY_HARD"
+                                }
+                            ]
+                        },
+                        {
+                            "sub_topic_name": {
+                                "label": "SQL Aggregations",
+                                "value": "SUB_TOPIC_SQL_AGGREGATIONS"
+                            },
+                            "available_difficulty_levels": [
+                                {
+                                    "label": "Easy",
+                                    "value": "DIFFICULTY_EASY"
+                                },
+                                {
+                                    "label": "Medium",
+                                    "value": "DIFFICULTY_MEDIUM"
+                                },
+                                {
+                                    "label": "Hard",
+                                    "value": "DIFFICULTY_HARD"
+                                }
+                            ]
+                        },
+                        {
+                            "sub_topic_name": {
+                                "label": "SQL Having",
+                                "value": "SUB_TOPIC_SQL_HAVING"
+                            },
+                            "available_difficulty_levels": [
+                                {
+                                    "label": "Easy",
+                                    "value": "DIFFICULTY_EASY"
+                                },
+                                {
+                                    "label": "Medium",
+                                    "value": "DIFFICULTY_MEDIUM"
+                                },
+                                {
+                                    "label": "Hard",
+                                    "value": "DIFFICULTY_HARD"
+                                }
+                            ]
+                        },
+                        {
+                            "sub_topic_name": {
+                                "label": "Aggregation",
+                                "value": "SUB_TOPIC_AGGREGATION"
+                            },
+                            "available_difficulty_levels": [
+                                {
+                                    "label": "Easy",
+                                    "value": "DIFFICULTY_EASY"
+                                },
+                                {
+                                    "label": "Medium",
+                                    "value": "DIFFICULTY_MEDIUM"
+                                },
+                                {
+                                    "label": "Hard",
+                                    "value": "DIFFICULTY_HARD"
+                                }
+                            ]
+                        }
+                    ]
                 ]
             }
         ],
@@ -12912,4 +13491,105 @@
                 ]
             }
         ]
-    }
+    },
+    "sql_exam_configurations": [
+        {
+            "db_url": "https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/placement-happenings/SQL-CP-Questions/Topin-Tech-SQL/db.sqlite3",
+            "learning_resource_id": "8393c502-18a4-40d1-84fa-4c8b3f18e27b"
+        }
+    ],
+    "invite_email_template": {
+        "subject": "Your new assessment is ready | [\"assessment_title\"]",
+        "body": "<p class=\"ql-align-center\"><img src=\"https://email-editor-resources.s3.amazonaws.com/images/we15ba20153/topin%20logo.png\" height=\"auto\" width=\"142\"></p><p>&nbsp;</p><p>Hello [\"first_name\"],&nbsp;</p><p>&nbsp;</p><p>You have been invited for the assessment - [\"assessment_title\"].</p><p>&nbsp;</p><p><br></p><p>The assessment will be accessible for you to attempt between [\"exam_start_date\"], [\"unique_exam_start_time\"] to [\"exam_end_date\"], [\"unique_exam_end_time\"].&nbsp;</p><p><br></p><p>We suggest starting the test as soon as possible and ensure that you complete the test within this timeframe.</p><p><br></p><p>&nbsp;</p><p>You can start your <strong>Main Assessment </strong>by clicking here: [\"unique_exam_link\"]</p><p>&nbsp;</p><p>&nbsp;</p><p>To be better prepared, it is recommended to attempt the mock test first, as it helps you to become comfortable with the test interface.</p><p>&nbsp;</p><p>&nbsp;</p><p>You can attempt <strong>mock test</strong> here: [\"mock_test_link\"]</p><p><br></p><p>&nbsp;</p><p>Here are some important <a href=\"https://special-aspen-266.notion.site/Exam-Instructions-f34722cf8bc148bc95d9ea21c48b73b2\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(31, 78, 255);\">Assessment Instructions</a> & <a href=\"https://special-aspen-266.notion.site/FAQs-for-Topin-ca00a596360e4e1cb9c911ca29cee3b3\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(31, 78, 255);\">FAQ</a> that you need to go through before attempting the assessment.</p><p>&nbsp;</p><p>&nbsp;</p><p>For any queries related to the Assessment, please <a href=\"https://api.whatsapp.com/send?phone=+919281126017&text=Hey%20Topin%20Team%2C%20I%20have%20a%20query%21\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(31, 78, 255);\">reach out to us</a> on WhatsApp.</p><p>&nbsp;</p><p>&nbsp;</p><p>We wish you all the best!</p><p>&nbsp;</p><p>Best regards,</p><p>Team Topin.</p><p>&nbsp;</p>"
+    },
+    "reminder_email_template": {
+        "subject": "Your [\"assessment_title\"]  Starts in 1 hour",
+        "body": "<p class=\"ql-align-center\"><img src=\"https://email-editor-resources.s3.amazonaws.com/images/we15ba20153/topin%20logo.png\" height=\"auto\" width=\"142\"></p><p>Hello [\"first_name\"],&nbsp;</p><p>&nbsp;</p><p>This is a reminder that [\"assessment_title\"] will start in one hour.&nbsp;</p><p><br></p><p>Please make sure you have a stable internet connection and a laptop or a desktop with a webcam ready to access the assessment.</p><p><br></p><p>You can start your <strong>Main Assessment </strong>by clicking on this link: [\"unique_exam_link\"]</p><p>&nbsp;</p><p>The assessment will be accessible for you to attempt between [\"exam_start_date\"], [\"unique_exam_start_time\"] to [\"exam_end_date\"], [\"unique_exam_end_time\"].</p><p><br></p><p> We suggest starting the test as soon as possible and ensure that you complete the test within this timeframe.</p><p><br></p><p>You are required to be present at your desk at least 10 minutes before the exam start time.</p><p>&nbsp;</p><p><br></p><p>To be familiar with the assessment interface, we recommend you take the <strong>mock test</strong> here: [\"mock_test_link\"]</p><p><br></p><p><br></p><p> Here are some important <a href=\"https://special-aspen-266.notion.site/Exam-Instructions-f34722cf8bc148bc95d9ea21c48b73b2\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(31, 78, 255);\">Exam Instructions</a> & <a href=\"https://special-aspen-266.notion.site/FAQs-for-Topin-ca00a596360e4e1cb9c911ca29cee3b3\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(31, 78, 255);\">FAQ </a>you need to go through before attempting the exam.</p><p><br></p><p>For any queries related to the exam, please <a href=\"https://api.whatsapp.com/send?phone=+919281126017&text=Hey%20Topin%20Team%2C%20I%20have%20a%20query%21\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(31, 78, 255);\">reach out to us</a> on WhatsApp</p><p>&nbsp;</p><p>&nbsp;</p><p>We wish you all the best for the upcoming exam.</p><p>&nbsp;</p><p>Best regards,</p><p>Team Topin.</p>"
+    },
+    "job_role_options": [
+        {
+            "label": "Frontend Developer",
+            "value": "FRONTEND_DEVELOPER"
+        },
+        {
+            "label": "Java Developer",
+            "value": "JAVA_DEVELOPER"
+        },
+        {
+            "label": "Python Developer",
+            "value": "PYTHON_DEVELOPER"
+        },
+        {
+            "label": "Full Stack Developer",
+            "value": "FULL_STACK_DEVELOPER"
+        },
+        {
+            "label": "Associate Software Engineer",
+            "value": "ASSOCIATE_SOFTWARE_ENGINEER"
+        },
+        {
+            "label": "MERN Developer",
+            "value": "MERN_DEVELOPER"
+        },
+        {
+            "label": "NodeJS Developer",
+            "value": "NODEJS_DEVELOPER"
+        },
+        {
+            "label": "ReactJS Developer",
+            "value": "REACTJS_DEVELOPER"
+        },
+        {
+            "label": "Software Engineer",
+            "value": "SOFTWARE_ENGINEER"
+        },
+        {
+            "label": "QA Testing",
+            "value": "QA_TESTING"
+        },
+        {
+            "label": "SQL Developer",
+            "value": "SQL_DEVELOPER"
+        },
+        {
+            "label": "Data Analyst",
+            "value": "DATA_ANALYST"
+        },
+        {
+            "label": "Data Scientist",
+            "value": "DATA_SCIENTIST"
+        },
+        {
+            "label": "UI Developer",
+            "value": "UI_DEVELOPER"
+        },
+        {
+            "label": "Data Engineer",
+            "value": "DATA_ENGINEER"
+        },
+        {
+            "label": "Web Developer",
+            "value": "WEB_DEVELOPER"
+        },
+        {
+            "label": "Backend Developer",
+            "value": "BACKEND_DEVELOPER"
+        },
+        {
+            "label": "Technical Support",
+            "value": "TECHNICAL_SUPPORT"
+        },
+        {
+            "label": "Business Analyst",
+            "value": "BUSINESS_ANALYST"
+        },
+        {
+            "label": "Graduate Engineer Trainee",
+            "value": "GRADUATE_ENGINEER_TRAINEE"
+        },
+        {
+            "label": "Technical Architect",
+            "value": "TECHNICAL_ARCHITECT"
+        }
+    ]
+}
