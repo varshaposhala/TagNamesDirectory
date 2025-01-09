@@ -12658,7 +12658,6 @@
                 "value": "TOPIC_SQL_CODING"
             },
             "sub_topics": [
-                [
                     {
                         "sub_topic_name": {
                             "label": "Order By",
@@ -12880,7 +12879,6 @@
                         ]
                     }
                 ]
-            ]
         }
     ],
     "textual_section_question_tags": [
