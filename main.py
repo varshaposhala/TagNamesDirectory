@@ -13,7 +13,6 @@ st.set_page_config(
 )
 
 # --- Data Loading and Caching ---
-@st.cache_data
 def load_and_prepare_data():
     print("Attempting to fetch and process data from URL...")
     raw_json = json_utils.fetch_and_parse_json_from_url()
